@@ -1,0 +1,123 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-size:40px;
+    font-family: "Helvetica";
+    margin-bottom:20px;
+    color: #ddd;
+    text-align:center;
+}
+/*form*/
+section#input-form{
+    position: relative;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    padding: 30px;
+}
+#input-form .form{
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+label{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+input{
+    font-family: 'Helvetica',sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+/*table*/
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    text-align:center;
+    
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    background-color: #4CAF50;
+    color: white;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.update {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.update:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.delete:hover {
+  background-color: #f44336;
+  color: white;
+}
+.tambah {
+  background-color: white; 
+  color: black; 
+  font-family: "Helvetica";
+  border: 2px solid #008CBA;
+}
+
+.tambah:hover {
+  background-color: #008CBA;
+  color: white;
+}
